@@ -1,0 +1,307 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>Welcome to Five Guys</title>
+    <link rel="shortcut icon" href="assets/PublicSite/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/PublicSite/images/favicon.ico" type="image/x-icon">
+    <link rel='stylesheet' href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" />
+    <link href="bundles/style.css" rel="stylesheet"/>
+    
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    
+</head>
+<body>
+    <header>
+        <a href="index.html" class="header__logo"><img src="assets/PublicSite/images/fiveguys-logo.svg" alt="Five Guys Logo"></a>
+        <div class="flex-grid">
+            <div class="flex-grid__row">
+
+                <div class="flex-col-6">
+
+
+                    <input type="checkbox" id="check">
+                    <label for="check" class="checkbtn">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                    <script>
+
+                        let btn = document.querySelector(".checkbtn");
+                        let icon = btn.querySelector(".fa-bars");
+                   
+                
+                        btn.onclick = function (){
+                            if(icon.classList.contains("fa-bars")){
+                                icon.classList.replace("fa-bars", "fa-x");
+                                document.getElementById('odnow').className="header__order-now-end";
+                                document.getElementsByTagName('header')[0].className="header__hide";
+                            }
+                            else{
+                                icon.classList.replace("fa-x", "fa-bars");
+                                document.getElementById('odnow').className="header__order-now";
+                                document.getElementsByTagName('header')[0].className="";
+                            }
+                        }
+                    </script>
+                       
+
+                
+                    <div class="header__nav">
+                        <ul class="unlisted header__nav__links">
+                                <li><a href="#" target="">Menu</a></li>
+                                <li><a href="#" target="">Locations</a></li>
+                                <li><a href="#" target="_blank">Careers</a></li>
+                        </ul>
+                            <a href="#" target="_blank" class="header__button header__button--outline">Gift Cards</a>
+                                                    <a href="#" target="" class="header__button">Order Now</a>
+                    </div>
+                </div>
+                <div class="flex-col-6">
+                      
+                        <a href="#" target="" class="header__order-now">Order <span>Now</span></a> 
+                    <div class="header__buttons">
+                            <a href="#" target="_blank" class="header__button header__button--outline">Gift Cards</a>
+                                                    <a href="#" target="" class="header__button">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <input id="fg-current-language" type="hidden" value="en-US" />
+    </header>
+
+    <div class="home-element-container">
+    
+
+
+        <div class="hero-main " style="background-image: url('-/media/public-site/images/hero-images/2000%20Res-JPG-OglivyDC_FiveGuys_Web_Red_05_w10_fk_CMYK.jpg')">
+            <div class="hero-content-wrapper">
+                <div class="content">
+                        <div class="hero-text-light">Handcrafted</div>
+                                        <div class="hero-text-bold">Burgers &amp; Fries</div>
+                                        <div class="hero-text-light">since 1986</div>
+    
+                    <!-- accessibility -->
+                    <h1 class="nonsight-text">Welcome to Five Guys</h1>
+    <a href="#" class="btn-hero-cta m-t-xl" >Order Now</a>            </div>
+            </div>
+        </div>
+    
+        <div class="hero-secondary">
+            <div class="secondary-group">
+                <div class="cta-join-crew">
+                    
+    
+    
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><a href="#" ><img src="-/media/public-site/images/2022-carousels/Join%20Our%20Team%20171ab.jpg?h=720&amp;w=600&amp;la=en-US&amp;hash=DDAB4688A9C6C8434D11B989E16649A9" alt="" />
+        </a></div>
+        <div class="swiper-slide"><a href="#" title="Order" ><img src="-/media/public-site/images/2022-carousels/GiftCard2-Carousel600x7207501.png?h=720&amp;w=600&amp;la=en-US&amp;hash=652E45EAB83659BA1F635540E4B098BC" alt="" />      
+        </a></div>
+        <div class="swiper-slide"><a href="#" ><img src="-/media/public-site/images/2022-carousels/Merch-Carousel600x720a3e2.png?h=720&amp;w=600&amp;la=en-US&amp;hash=5913B4403D4E8F9AC3561774BEF38B4F" alt="" />
+        </a></div>
+        </div>
+        <!-- If we need pagination -->
+
+    
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    
+
+    </div>
+    
+                <script>
+                    const swiper = new Swiper('.swiper', {
+                        loop: true,
+                        speed: 400,
+                        spaceBetween: 3,
+                        slidesPerView: 1,
+                        autoplay:{
+                            delay: 2000,
+                            disableOnInteraction: false
+                        },
+                        navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                        },
+                });
+                </script>
+    
+    
+    
+                </div>
+                <div id="promo-space-container">
+                    
+    
+    
+    <a href="https://order.fiveguys.com/" rel="noopener noreferrer" title="Mobile App" target="_blank" >        <div class="cta-mobile-wrapper" style="background-image: url('-/media/public-site/images/2022-banners/ReesesShakesScreens02%20web%20banner.png')">
+                <div class="mobile-callout-overlay"></div>
+                <div class="hero-secondary-text-light pull-left">
+                    
+                </div>
+                <div class="phone-wrap">
+                            <div class="mobile-phone" style="background-image: none;"></div>
+    
+                </div>
+            </div>
+    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer__top">
+            <div class="flex-grid">
+                <div class="flex-grid__row">
+                    <div class="flex-col-12 flex-col-lg-6">
+                        <div class="footer__top__logo-wrapper">
+                            <a href="#" class="footer__top__logo"><img src="assets/PublicSite/images/fiveguys-logo-white.svg" alt="Five Guys Logo"></a>
+                            <ul class="footer__top__social unlisted inline">
+                                            <li><a href="#" target="_blank"><img src="assets/PublicSite/images/SocialIcons/logo-facebook.svg" alt="Facebook" title="Facebook" /></a></li>
+                                            <li><a href="#" target="_blank"><img src="assets/PublicSite/images/SocialIcons/logo-twitter.svg" alt="Twitter" title="Twitter" /></a></li>
+                                            <li><a href="#" target="_blank"><img src="assets/PublicSite/images/SocialIcons/logo-linkedin.svg" alt="LinkedIn" title="LinkedIn" /></a></li>
+                                            <li><a href="#" target="_blank"><img src="assets/PublicSite/images/SocialIcons/logo-instagram.svg" alt="Instagram" title="Instagram" /></a></li>
+                                            <li><a href="#" target="_blank"><img src="assets/PublicSite/images/SocialIcons/music-icon.svg" alt="Spotify" title="Spotify" /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex-col-12 flex-col-lg-6">
+                        <ul class="footer__top__nav unlisted">
+                                    <li>
+                                        <a href="#">Locations</a>
+    
+    
+                                    </li>
+                                    <li>
+                                        <a href="#">We're Hiring</a>
+    
+    
+                                    </li>
+                                    <li>
+                                        <a href="#">The Five Guys Story</a>
+    
+    
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact Us</a>
+    
+    
+                                    </li>
+                                    <li>
+                                        <a href="#">Five Guys Gear</a>
+    
+    
+                                    </li>
+                                    <li>
+                                        <a href="#">Gift Cards</a>
+    
+                                                <a href="#" class="footer__top__nav__small">Balance Inquiry</a>
+    
+                                    </li>
+    
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex-grid__row align-items-center">
+                    <div class="flex-col-12 flex-col-lg-6">
+                        <ul class="footer__top__app-links unlisted inline">
+                                    <li><a href="https://play.google.com/store/apps/details?id=com.fiveguys.olo.android&amp;hl=en_US" target="_blank"><img src="assets/PublicSite/images/Badges/google-play-badge.svg" alt="Google Play" /></a></li>
+                                    <li><a href="https://apps.apple.com/us/app/five-guys-burgers-fries/id457494327" target="_blank"><img src="assets/PublicSite/images/Badges/Download_on_the_App_Store_Badge.svg" alt="Apple Store" /></a></li>
+                        </ul>
+                    </div>
+                    <div class="flex-col-12 flex-col-lg-5 footer__top__language-select">
+                        <select class="url-redirect">
+                                    <option  value="#">Australia | English</option>
+                                    <option  value="#">Austria | English</option>
+                                    <option  value="#">Austria | German</option>
+                                    <option  value="#">Bahrain |  Arabic</option>
+                                    <option  value="#">Bahrain | English</option>
+                                    <option  value="#">Belgium | Dutch</option>
+                                    <option  value="#">Belgium | English</option>
+                                    <option  value="#">Belgium | French</option>
+                                    <option  value="#">Canada | English</option>
+                                    <option  value="#">Canada | French</option>
+                                    <option  value="https://www.fiveguys.cn/?sc_lang=zh-CN">China | Chinese</option>
+                                    <option  value="#">China | English</option>
+                                    <option  value="#">France | French</option>
+                                    <option  value="#">Germany | German</option>
+                                    <option  value="#">Hong Kong SAR | Chinese</option>
+                                    <option  value="#">Hong Kong SAR | English</option>
+                                    <option  value="#">Ireland | English</option>
+                                    <option  value="#">Italy | English</option>
+                                    <option  value="#">Italy | Italian</option>
+                                    <option  value="#">Kuwait | Arabic</option>
+                                    <option  value="#">Kuwait | English</option>
+                                    <option  value="#">Luxembourg | English</option>
+                                    <option  value="#">Luxembourg | French</option>
+                                    <option  value="#">Malaysia | English</option>
+                                    <option  value="#">Malaysia | Chinese</option>
+                                    <option  value="#">Netherlands | English</option>
+                                    <option  value="#">Netherlands | Dutch</option>
+                                    <option  value="#">Qatar |  Arabic</option>
+                                    <option  value="#">Qatar | English</option>
+                                    <option  value="#">Saudi Arabia |  Arabic</option>
+                                    <option  value="#">Saudi Arabia | English</option>
+                                    <option  value="#">Singapore | English</option>
+                                    <option  value="#">Spain | Spanish</option>
+                                    <option  value="#">Switzerland | English</option>
+                                    <option  value="#">Switzerland | French</option>
+                                    <option  value="#">United Arab Emirates | Arabic</option>
+                                    <option  value="#">United Arab Emirates | English</option>
+                                    <option  value="#">United Kingdom | English</option>
+                                    <option selected value="index07f7.html?sc_lang=en-US">United States | English</option>
+    
+    
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="flex-grid">
+                <div class="flex-grid__row">
+                    <div class="flex-col-12">
+                        <p>&copy; 2022 Five Guys Enterprises, LLC</p>
+                        <ul class="footer__bottom__links unlisted inline">
+    
+    
+                                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+    
+                                <li><a href="terms-of-use-website.html">Terms of Use</a></li>
+    
+                                <li><a href="https://privacyportal-cdn.onetrust.com/dsarwebform/f5fbc500-6a08-4d16-b254-c0447470bd68/ec9202a6-8d35-42ee-9292-5ac5e3209f03.html">Do Not Sell My Personal Information</a></li>
+    
+                                <li><a href="open-source-licenses.html">Open Source Licenses</a></li>
+    
+                                <li><a href="california-transparency-in-supply-chain-act.html">CA Transparency Act</a></li>
+    
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+</body>

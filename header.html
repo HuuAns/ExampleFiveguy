@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>Welcome to Five Guys</title>
+    <link rel="shortcut icon" href="assets/PublicSite/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/PublicSite/images/favicon.ico" type="image/x-icon">
+    <link rel='stylesheet' href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" />
+    <link href="bundles/header.css" rel="stylesheet"/>
+    
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    
+</head>
+<body>
+    <header>
+        <a href="index.html" class="header__logo"><img src="assets/PublicSite/images/fiveguys-logo.svg" alt="Five Guys Logo"></a>
+        <div class="flex-grid">
+            <div class="flex-grid__row">
+
+                <div class="flex-col-6">
+
+
+                    <input type="checkbox" id="check">
+                    <label for="check" class="checkbtn">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+
+
+                    <script>
+
+                        let btn = document.querySelector(".checkbtn");
+                        let icon = btn.querySelector(".fa-bars");
+                   
+                
+                        btn.onclick = function (){
+                            if(icon.classList.contains("fa-bars")){
+                                icon.classList.replace("fa-bars", "fa-x");
+                                document.getElementById('odnow').className="header__order-now-end";
+                                document.getElementsByTagName('header')[0].className="header__hide";
+                            }
+                            else{
+                                icon.classList.replace("fa-x", "fa-bars");
+                                document.getElementById('odnow').className="header__order-now";
+                                document.getElementsByTagName('header')[0].className="";
+                            }
+                        }
+                    </script>
+                       
+
+ 
+                    <div class="header__nav">
+                        <ul class="unlisted header__nav__links">
+                                <li><a href="#" target="">Menu</a></li>
+                                <li><a href="#" target="">Locations</a></li>
+                                <li><a href="#" target="_blank">Careers</a></li>
+                        </ul>
+                            <a href="#" target="_blank" class="header__button header__button--outline">Gift Cards</a>
+                                                    <a href="#" target="" class="header__button">Order Now</a>
+                    </div>
+                </div>
+                <div class="flex-col-6">
+                      
+                        <a href="#" target="" class="header__order-now" >Order <span>Now</span></a> 
+                    <div class="header__buttons">
+                            <a href="#" target="_blank" class="header__button header__button--outline">Gift Cards</a>
+                                                    <a href="#" target="" class="header__button">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <input id="fg-current-language" type="hidden" value="en-US" />
+    </header>
+    <div style="height: 500px; width: 100%; background-color: black;"></div>
+</body>
