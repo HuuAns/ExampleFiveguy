@@ -72,9 +72,25 @@ header {
         }
     }
     .header__order-now-end {
-        width: 50px;
+        
         background-color: $background-color_1;
         color: $color_2 !important;
+        width: 50px;
+        padding: 3px 0 3px 0;
+        float: right;
+        opacity: 1;
+        visibility: visible;
+        text-align: center;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 12px;
+        text-transform: uppercase;
+        text-decoration: none !important;
+        -webkit-transition: background-color 0.25s ease-in-out;
+        -moz-transition: background-color 0.25s ease-in-out;
+        -ms-transition: background-color 0.25s ease-in-out;
+        -o-transition: background-color 0.25s ease-in-out;
+        transition: background-color 0.25s ease-in-out;
     }
     .header__nav__links {
         margin-bottom: 45px !important;
