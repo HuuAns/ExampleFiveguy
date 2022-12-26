@@ -20,81 +20,34 @@ img {
 
 @font-face {
   font-family: "Helvetica Black";
-  src: url("../../fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Black.eot");
-  src: url("../../fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Blackd41d.eot?#iefix") format("embedded-opentype"), url("../../fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Black.woff2") format("woff2"), url("../../fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Black.woff") format("woff"), url("../../fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Black.ttf") format("truetype"), url("../../fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Black.svg#svgFontName") format("svg");
+  src: url("../assets/PublicSite/fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Black.eot");
+  src: url("../assets/PublicSite/fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Blackd41d.eot?#iefix") format("embedded-opentype"), url("../assets/PublicSite/fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Black.woff2") format("woff2"), url("../assets/PublicSite/fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Black.woff") format("woff"), url("../assets/PublicSite/fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Black.ttf") format("truetype"), url("../assets/PublicSite/fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Black.svg#svgFontName") format("svg");
 }
 @font-face {
   font-family: "Helvetica Bold";
-  src: url("../../fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Bold.eot");
-  src: url("../../fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Boldd41d.eot?#iefix") format("embedded-opentype"), url("../../fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Bold.woff2") format("woff2"), url("../../fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Bold.woff") format("woff"), url("../../fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Bold.ttf") format("truetype"), url("../../fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Bold.svg#svgFontName") format("svg");
+  src: url("../assets/PublicSite/fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Bold.eot");
+  src: url("../assets/PublicSite/fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Boldd41d.eot?#iefix") format("embedded-opentype"), url("../assets/PublicSite/fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Bold.woff2") format("woff2"), url("../assets/PublicSite/fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Bold.woff") format("woff"), url("../assets/PublicSite/fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Bold.ttf") format("truetype"), url("../assets/PublicSite/fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Bold.svg#svgFontName") format("svg");
 }
 @font-face {
   font-family: "Helvetica Light";
-  src: url("../../fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Light.eot");
-  src: url("../../fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Lightd41d.eot?#iefix") format("embedded-opentype"), url("../../fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Light.woff2") format("woff2"), url("../../fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Light.woff") format("woff"), url("../../fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Light.ttf") format("truetype"), url("../../fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Light.svg#svgFontName") format("svg");
+  src: url("../assets/PublicSite/fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Light.eot");
+  src: url("../assets/PublicSite/fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Lightd41d.eot?#iefix") format("embedded-opentype"), url("../assets/PublicSite/fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Light.woff2") format("woff2"), url("../assets/PublicSite/fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Light.woff") format("woff"), url("../assets/PublicSite/fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Light.ttf") format("truetype"), url("../assets/PublicSite/fonts/NewFonts/WebFonts/Helvetica/HelveticaLTW05-Light.svg#svgFontName") format("svg");
 }
 @font-face {
   font-family: "Tisa Pro Bold";
-  src: url("../../fonts/NewFonts/WebFonts/FF%20Tisa/TisaWebW03Bold.eot");
-  src: url("../../fonts/NewFonts/WebFonts/FF%20Tisa/TisaWebW03Boldd41d.eot?#iefix") format("embedded-opentype"), url("../../fonts/NewFonts/WebFonts/FF%20Tisa/TisaWebW03Bold.woff2") format("woff2"), url("../../fonts/NewFonts/WebFonts/FF%20Tisa/TisaWebW03Bold.woff") format("woff"), url("../../fonts/NewFonts/WebFonts/FF%20Tisa/TisaWebW03Bold.ttf") format("truetype");
+  src: url("../assets/PublicSite/fonts/NewFonts/WebFonts/FF%20Tisa/TisaWebW03Bold.eot");
+  src: url("../assets/PublicSite/fonts/NewFonts/WebFonts/FF%20Tisa/TisaWebW03Boldd41d.eot?#iefix") format("embedded-opentype"), url("../assets/PublicSite/fonts/NewFonts/WebFonts/FF%20Tisa/TisaWebW03Bold.woff2") format("woff2"), url("../assets/PublicSite/fonts/NewFonts/WebFonts/FF%20Tisa/TisaWebW03Bold.woff") format("woff"), url("../assets/PublicSite/fonts/NewFonts/WebFonts/FF%20Tisa/TisaWebW03Bold.ttf") format("truetype");
 }
 @font-face {
   font-family: "Tisa Pro Regular";
-  src: url("../../fonts/NewFonts/WebFonts/FF%20Tisa/TisaWebW03Regular1475151.eot");
-  src: url("../../fonts/NewFonts/WebFonts/FF%20Tisa/TisaWebW03Regular1475151d41d.eot?#iefix") format("embedded-opentype"), url("../../fonts/NewFonts/WebFonts/FF%20Tisa/TisaWebW03Regular1475151.woff2") format("woff2"), url("../../fonts/NewFonts/WebFonts/FF%20Tisa/TisaWebW03Regular1475151.woff") format("woff"), url("../../fonts/NewFonts/WebFonts/FF%20Tisa/TisaWebW03Regular1475151.ttf") format("truetype");
+  src: url("../assets/PublicSite/fonts/NewFonts/WebFonts/FF%20Tisa/TisaWebW03Regular1475151.eot");
+  src: url("../assets/PublicSite/fonts/NewFonts/WebFonts/FF%20Tisa/TisaWebW03Regular1475151d41d.eot?#iefix") format("embedded-opentype"), url("../assets/PublicSite/fonts/NewFonts/WebFonts/FF%20Tisa/TisaWebW03Regular1475151.woff2") format("woff2"), url("../assets/PublicSite/fonts/NewFonts/WebFonts/FF%20Tisa/TisaWebW03Regular1475151.woff") format("woff"), url("../assets/PublicSite/fonts/NewFonts/WebFonts/FF%20Tisa/TisaWebW03Regular1475151.ttf") format("truetype");
 }
 @font-face {
   font-family: "Tisa Pro Regular Italic";
-  src: url("../../fonts/NewFonts/WebFonts/FF%20Tisa/TisaWebW03Italic.eot");
-  src: url("../../fonts/NewFonts/WebFonts/FF%20Tisa/TisaWebW03Italicd41d.eot?#iefix") format("embedded-opentype"), url("../../fonts/NewFonts/WebFonts/FF%20Tisa/TisaWebW03Italic.woff2") format("woff2"), url("../../fonts/NewFonts/WebFonts/FF%20Tisa/TisaWebW03Italic.woff") format("woff"), url("../../fonts/NewFonts/WebFonts/FF%20Tisa/TisaWebW03Italic.ttf") format("truetype");
+  src: url("../assets/PublicSite/fonts/NewFonts/WebFonts/FF%20Tisa/TisaWebW03Italic.eot");
+  src: url("../assets/PublicSite/fonts/NewFonts/WebFonts/FF%20Tisa/TisaWebW03Italicd41d.eot?#iefix") format("embedded-opentype"), url("../assets/PublicSite/fonts/NewFonts/WebFonts/FF%20Tisa/TisaWebW03Italic.woff2") format("woff2"), url("../assets/PublicSite/fonts/NewFonts/WebFonts/FF%20Tisa/TisaWebW03Italic.woff") format("woff"), url("../assets/PublicSite/fonts/NewFonts/WebFonts/FF%20Tisa/TisaWebW03Italic.ttf") format("truetype");
 }
-.flex-grid {
-  width: 100%;
-  max-width: 1175px;
-  padding-right: 13px;
-  padding-left: 13px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.flex-grid__row {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: -13px;
-  margin-left: -13px;
-}
-
-.flex-grid__row.justify-content-center {
-  -ms-flex-pack: center !important;
-  justify-content: center !important;
-}
-
-.flex-grid__row.align-items-center {
-  -ms-flex-align: center !important;
-  align-items: center !important;
-}
-
-.flex-col-6, .flex-col-12, .flex-col, .flex-col-lg-5, .flex-col-lg-6 {
-  position: relative;
-  width: 100%;
-  padding-right: 13px;
-  padding-left: 13px;
-}
-
-.flex-col-6 {
-  -ms-flex: 0 0 50%;
-  flex: 0 0 50%;
-  max-width: 50%;
-}
-
-.flex-col-12 {
-  -ms-flex: 0 0 100%;
-  flex: 0 0 100%;
-  max-width: 100%;
-}
-
 header {
   width: 100%;
   background-color: #fff;
@@ -401,7 +354,7 @@ a:active {
   height: auto;
 }
 .home-element-container .hero-main {
-  background-image: url("../../images/five-guys-hero.jpg");
+  background-image: url("../assets/PublicSite/images/five-guys-hero.jpg");
   background-size: cover;
   background-position: center;
   -webkit-flex: 2.5;
@@ -461,7 +414,7 @@ a:active {
   left: 0;
 }
 .home-element-container .cta-mobile-wrapper {
-  background-image: url("../../images/fg-stainless-steel.png");
+  background-image: url("../assets/PublicSite/images/fg-stainless-steel.png");
   background-size: cover;
   background-position: bottom;
   height: 300px;
@@ -503,7 +456,7 @@ a:active {
   flex: 1;
 }
 .home-element-container .cta-mobile-wrapper .phone-wrap .mobile-phone {
-  background-image: url("../../images/fg-mobile-phone.png");
+  background-image: url("../assets/PublicSite/images/fg-mobile-phone.png");
   background-repeat: no-repeat;
   background-position: top;
   width: 240px;
@@ -943,6 +896,52 @@ ul.inline > li {
     font-size: 18px;
     letter-spacing: 0.004em;
   }
+}
+.flex-grid {
+  width: 100%;
+  max-width: 1175px;
+  padding-right: 13px;
+  padding-left: 13px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.flex-grid__row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -13px;
+  margin-left: -13px;
+}
+
+.flex-grid__row.justify-content-center {
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
+
+.flex-grid__row.align-items-center {
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+
+.flex-col-6, .flex-col-12, .flex-col, .flex-col-lg-5, .flex-col-lg-6 {
+  position: relative;
+  width: 100%;
+  padding-right: 13px;
+  padding-left: 13px;
+}
+
+.flex-col-6 {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.flex-col-12 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

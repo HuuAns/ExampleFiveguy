@@ -19,7 +19,7 @@ a {
 		height: auto;
 	}
 	.hero-main {
-		background-image: url("../../images/five-guys-hero.jpg");
+		background-image: url("../assets/PublicSite/images/five-guys-hero.jpg");
 		background-size: cover;
 		background-position: center;
 		-webkit-flex: 2.5;
@@ -81,7 +81,7 @@ a {
 		}
 	}
 	.cta-mobile-wrapper {
-		background-image: url("../../images/fg-stainless-steel.png");
+		background-image: url("../assets/PublicSite/images/fg-stainless-steel.png");
 		background-size: cover;
 		background-position: bottom;
 		height: 300px;
@@ -121,7 +121,7 @@ a {
 			-ms-flex: 1;
 			flex: 1;
 			.mobile-phone {
-				background-image: url("../../images/fg-mobile-phone.png");
+				background-image: url("../assets/PublicSite/images/fg-mobile-phone.png");
 				background-repeat: no-repeat;
 				background-position: top;
 				width: 240px;

@@ -1,12 +1,12 @@
 footer {
 	width: 100%;
 	background: none;
-	background-color: $background-color_5;
-	color: $color_2;
+	background-color: #000;
+	color: #fff;
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	font-family: $font-family_2;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 
 
 	@media (min-width: 992px) {
@@ -121,8 +121,8 @@ footer {
 	margin-bottom: 23px !important;
 }
 .footer__top__nav a {
-	color: $color_2 !important;
-	font-family: $font-family_7;
+	color: #fff !important;
+	font-family: "HelveticaLTW04-Black", "Helvetica Black", Helvetica Neue, Helvetica, Arial, sans-serif;
 	font-weight: 900;
 	font-size: 13.33px;
 	line-height: 14px;
@@ -131,7 +131,7 @@ footer {
 }
 .footer__top__nav a.footer__top__nav__small {
 	display: block;
-	font-family: $font-family_2;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 	font-weight: 700;
 	font-size: 12px;
 	line-height: 16px;
@@ -152,9 +152,9 @@ footer {
 }
 .footer__top__language-select select {
 
-	background-color: $background-color_5;
-	color: $color_2;
-	border: 1px solid $color_2;
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #fff;
 	padding: 5px 0px 6px 5px;
 	font-weight: 700;
 	font-size: 12px;
@@ -162,7 +162,7 @@ footer {
 }
 .footer__bottom {
 	width: 100%;
-	background-color: $color_4;
+	background-color: #d21033;
 	padding: 16px 0 17px 0;
 }
 .footer__bottom p {
@@ -180,7 +180,7 @@ footer {
 .footer__bottom__links li:before {
 	width: 1px;
 	height: 7px;
-	background-color: $background-color_1;
+	background-color: #fff;
 	display: block;
 	position: absolute;
 	top: 5px;
@@ -191,7 +191,7 @@ footer {
 	display: none;
 }
 .footer__bottom__links a {
-	color: $color_2 !important;
+	color: #fff !important;
 	margin: 0 !important;
 	font-weight: 700;
 	font-size: 10px;
@@ -215,7 +215,7 @@ ul.inline > li {
 }
 @media (min-width: 992px) {
 	body {
-		font-family: $font-family_3;
+		font-family: "Tisa Pro Regular";
 		font-size: 18px;
 		letter-spacing: 0.004em;
 	}
