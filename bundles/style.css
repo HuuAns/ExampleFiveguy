@@ -535,8 +535,14 @@ button:visited {
   }
 }
 @media screen and (max-width: 768px) {
-  .swiper-slide img {
-    height: 85%;
+  .swiper .swiper-wrapper {
+    margin: 0;
+    padding: 0;
+    height: 400px !important;
+    width: 100% !important;
+  }
+  .swiper .swiper-slide img {
+    height: 100%;
     object-fit: cover;
     width: 100%;
   }
@@ -599,7 +605,6 @@ button:visited {
     left: 41px;
   }
   .home-element-container .cta-join-crew {
-    height: 400px;
     background-position: center;
   }
   .home-element-container .cta-join-crew .hero-align {
