@@ -1,0 +1,52 @@
+.home-element-container
+  .hero-main(style="background-image: url('../../images/media/public-site/images/hero-images/2000%20Res-JPG-OglivyDC_FiveGuys_Web_Red_05_w10_fk_CMYK.jpg')")
+    .hero-content-wrapper
+      .content
+        .hero-text-light Handcrafted
+        .hero-text-bold Burgers &amp; Fries
+        .hero-text-light since 1986
+        // accessibility
+        h1.nonsight-text Welcome to Five Guys
+        a.btn-hero-cta.m-t-xl(href='#') Order Now
+  .hero-secondary
+    .secondary-group
+      .cta-join-crew
+        .swiper
+          // Additional required wrapper
+          .swiper-wrapper
+            // Slides
+            .swiper-slide
+              a(href='#')
+                img(src='../../images/media/public-site/images/2022-carousels/Join%20Our%20Team%20171ab.jpg?h=720&w=600&la=en-US&hash=DDAB4688A9C6C8434D11B989E16649A9' alt='')
+            .swiper-slide
+              a(href='#' title='Order')
+                img(src='../../images/media/public-site/images/2022-carousels/GiftCard2-Carousel600x7207501.png?h=720&w=600&la=en-US&hash=652E45EAB83659BA1F635540E4B098BC' alt='')
+            .swiper-slide
+              a(href='#')
+                img(src='../../images/media/public-site/images/2022-carousels/Merch-Carousel600x720a3e2.png?h=720&w=600&la=en-US&hash=5913B4403D4E8F9AC3561774BEF38B4F' alt='')
+          // If we need pagination
+          // If we need navigation buttons
+          .swiper-button-prev
+          .swiper-button-next
+        script.
+          const swiper = new Swiper('.swiper', {
+          loop: true,
+          speed: 400,
+          spaceBetween: 3,
+          slidesPerView: 1,
+          autoplay:{
+          delay: 2000,
+          disableOnInteraction: false
+          },
+          navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+          },
+          });
+      #promo-space-container
+        a(href='https://order.fiveguys.com/' rel='noopener noreferrer' title='Mobile App' target='_blank')
+          .cta-mobile-wrapper(style="background-image: url('../../images/media/public-site/images/2022-banners/ReesesShakesScreens02%20web%20banner.png')")
+            .mobile-callout-overlay
+            .hero-secondary-text-light.pull-left
+            .phone-wrap
+              .mobile-phone(style='background-image: none;')
