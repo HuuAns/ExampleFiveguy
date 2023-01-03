@@ -1,0 +1,83 @@
+extends ../layout/layout.pug
+
+block header
+    include ../layout/general/header
+
+block main 
+    #page-content.container-fluid
+      div
+        .hero
+          .hero__content
+            h1 Menu
+          .hero__background(style="background: #D21033 url('images/media/public-site/images/hero-images/small-hero-images/2000Res-PNG-OglivyDC_FiveGuys_Web_Red_05_w10_fk_CMYK.jpg') no-repeat bottom center; background-size: cover;")
+        .menu.flex-grid
+          .flex-grid__row.justify-content-center
+            .flex-col-12.flex-col-md-8
+              p.menu__intro
+                | Five Guys&apos; passion for food is shared with our fans, which is why we never compromise. Fresh ingredients hand-prepared that satisfy your craving.
+        .menu.flex-grid
+          .flex-grid__row.justify-content-center
+            .flex-col-6.flex-col-md-4.flex-col-lg-3
+              a.menu__option(href='Burgers.html')
+                img(src='images/media/public-site/images/menu-images/menu-category-icons/FG-Burgers-Icon-01.jpg', alt='Burgers')
+                h2 Burgers
+            .flex-col-6.flex-col-md-4.flex-col-lg-3
+              a.menu__option(href='Dogs.html')
+                img(src='images/media/public-site/images/menu-images/menu-category-icons/FG-Dogs-Icon-01.jpg', alt='Dogs')
+                h2 Dogs
+            .flex-col-6.flex-col-md-4.flex-col-lg-3
+              a.menu__option(href='Drinks.html')
+                img(src='images/media/public-site/images/menu-images/menu-category-icons/FG-Drinks-Icon-01.jpg', alt='Drinks')
+                h2 Drinks
+            .flex-col-6.flex-col-md-4.flex-col-lg-3
+              a.menu__option(href='#')
+                img(src='images/media/public-site/images/menu-images/menu-category-icons/FG-Fries-Icon-01.jpg', alt='Fries')
+                h2 Fries
+            .flex-col-6.flex-col-md-4.flex-col-lg-3
+              a.menu__option(href='#')
+                img(src='images/media/public-site/images/menu-images/menu-category-icons/FG-Shakes-Icon-01.jpg', alt='Milkshakes Mix-Ins')
+                h2 Milkshakes Mix-Ins
+            .flex-col-6.flex-col-md-4.flex-col-lg-3
+              a.menu__option(href='#')
+                img(src='images/media/public-site/images/menu-images/menu-category-icons/FG-Sandwiches-Icon-01.jpg', alt='Sandwiches')
+                h2 Sandwiches
+            .flex-col-6.flex-col-md-4.flex-col-lg-3
+              a.menu__option(href='#')
+                img(src='images/media/public-site/images/menu-images/menu-category-icons/FG-Toppings-Icon-01.jpg', alt='Toppings')
+                h2 Toppings
+        .menu.flex-grid
+          .flex-grid__row
+            .flex-col-12
+              ul.menu__links.unlisted.inline
+                p
+                li
+                  a(href='images/media/public-site/files/allergen-ingredients-and-nutrition-info/allergen-guide/Nutrition%20Allergen%20March%202018%20US.pdf', rel='noopener noreferrer', title='Nutrition and Allergen Information', target='_blank') Nutrition and Allergen Information
+        .video-gallery
+          .container-fluid.video-gallery__max-width
+            .row
+              .col-12
+                h2 HOW FIVE GUYS IS MADE
+            .row
+              .col-12.col-md-4
+                .responsive-video
+                  iframe(width='560', height='315', src='https://www.youtube.com/embed/1SFjeeo3QUI?rel=0&showinfo=0', frameborder='0', allow='encrypted-media', allowfullscreen='')
+                h3
+                  span How to Make
+                  | A Five Guys Grilled Cheese
+              .col-12.col-md-4
+                .responsive-video
+                  iframe(width='560', height='315', src='https://www.youtube.com/embed/w8VHDfzTEGQ?rel=0&showinfo=0', frameborder='0', allow='encrypted-media', allowfullscreen='')
+                h3
+                  span How to Dress
+                  | A Five Guys Burger
+              .col-12.col-md-4
+                .responsive-video
+                  iframe(width='560', height='315', src='https://www.youtube.com/embed/0_kVgRxOnCc?rel=0&showinfo=0', frameborder='0', allow='encrypted-media', allowfullscreen='')
+                h3
+                  span How to Make
+                  | Five Guys Fries
+
+
+
+block footer
+    include ../layout/general/footer

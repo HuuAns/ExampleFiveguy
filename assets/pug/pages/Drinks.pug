@@ -1,0 +1,31 @@
+extends ../layout/layout.pug
+
+block header
+    include ../layout/general/header
+
+block main 
+    #page-content.container-fluid
+      div
+      div
+        .hero
+          .hero__content
+            img(src='images/media/public-site/images/hero-images/small-hero-images/icons/DrinksCircle2x.png', alt='Drinks Icon')
+            h1 Drinks
+          .hero__background(style="background: #D21033 url('images/media/public-site/images/hero-images/small-hero-images/Group2.jpg') no-repeat bottom center; background-size: cover;")
+        .menu-item.flex-grid
+          .flex-grid__row
+            .flex-col-12
+              a.menu-item__back(href='../menu.html') Full Menu
+          .flex-grid__row.menu-item__list
+        div
+          div
+            div(style='text-align: center;margin-bottom:50px;')
+              span(style='color: #3c3c3c;font-size:18px')
+                b We proudly serve Coca-Cola products.
+              br
+              img(height='83', alt='coke-logo-red', width='300', src='images/media/public-site/images/coke-freestyle-logos/CCFS_Logo_Horizontal_RGB_Reddb8f.png?h=83&w=300&hash=75639FAF1F3C42E2D765EA747BA2343A')
+              br
+              span(style='background-color: #ffffff; text-align: center; letter-spacing: 0.072px; color: #3c3c3c;') *Available only at participating locations.
+
+block footer
+    include ../layout/general/footer

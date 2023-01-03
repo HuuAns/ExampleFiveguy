@@ -1,0 +1,98 @@
+extends ../layout/layout.pug
+
+block header
+    include ../layout/general/header
+
+block main 
+    #page-content.container-fluid
+      div
+      div
+        .hero
+          .hero__content
+            img(src='images/media/public-site/images/hero-images/small-hero-images/icons/HotdogsCircle2x.png', alt='Dogs Icon')
+            h1 Dogs
+          .hero__background(style="background: #D21033 url('images/media/public-site/images/hero-images/small-hero-images/Group2.jpg') no-repeat bottom center; background-size: cover;")
+        .menu-item.flex-grid
+          .flex-grid__row
+            .flex-col-12
+              a.menu-item__back(href='../menu.html') Full Menu
+          .flex-grid__row.menu-item__list
+            .flex-col-12.flex-col-md-6
+              .menu-item__list__type
+                h2 Hot Dog
+                .menu-item__list__type__content
+                  p
+                    | All-beef hot dog, split and grilled lengthwise for a caramelized exterior with any of your favorite toppings.
+                  ul.unlisted.inline
+                    li
+                      span 520
+                      | Calories
+                    li
+                      span 40
+                      | Carbs (g)
+                    li
+                      span 35
+                      | Total Fat (g)
+                    li
+                      span 1130
+                      | Sodium (mg)
+            .flex-col-12.flex-col-md-6
+              .menu-item__list__type
+                h2 Cheese Dog
+                .menu-item__list__type__content
+                  p
+                    | All-beef hot dog, split and grilled lengthwise for a caramelized exterior with a layer of American-style cheese on top and any of your favorite toppings.
+                  ul.unlisted.inline
+                    li
+                      span 590
+                      | Calories
+                    li
+                      span 40.5
+                      | Carbs (g)
+                    li
+                      span 41
+                      | Total Fat (g)
+                    li
+                      span 1440
+                      | Sodium (mg)
+            .flex-col-12.flex-col-md-6
+              .menu-item__list__type
+                h2 Bacon Dog
+                .menu-item__list__type__content
+                  p
+                    | All-beef hot dog, split and grilled lengthwise for a caramelized exterior with a layer of apple-wood smoked bacon and any of your favorite toppings
+                  ul.unlisted.inline
+                    li
+                      span 600
+                      | Calories
+                    li
+                      span 40
+                      | Carbs (g)
+                    li
+                      span 42
+                      | Total Fat (g)
+                    li
+                      span 1390
+                      | Sodium (mg)
+            .flex-col-12.flex-col-md-6
+              .menu-item__list__type
+                h2 Bacon Cheese Dog
+                .menu-item__list__type__content
+                  p
+                    | All-beef hot dog, split and grilled lengthwise for a caramelized exterior, American-style cheese on top, a layer of apple-wood smoked bacon and any of your favorite toppings.
+                  ul.unlisted.inline
+                    li
+                      span 670
+                      | Calories
+                    li
+                      span 40.5
+                      | Carbs (g)
+                    li
+                      span 48
+                      | Total Fat (g)
+                    li
+                      span 1700
+                      | Sodium (mg)
+
+block footer
+    include ../layout/general/footer

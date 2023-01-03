@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="16px" viewBox="0 0 10 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Chevron-Left</title>
+    <g id="Menu-Landing---Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="FG---Menu-Landing---Mobile----03C" transform="translate(-15.000000, -222.000000)" fill="#D21033">
+            <g id="Full-menu" transform="translate(15.000000, 222.000000)">
+                <polygon id="Chevron-Left" transform="translate(4.762959, 8.000000) rotate(90.000000) translate(-4.762959, -8.000000) " points="11.2369739 3.23704139 4.76293613 9.7110792 -1.71110168 3.23704139 -3.23704139 4.76298109 4.76293613 12.7629586 12.7629586 4.76298109"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
